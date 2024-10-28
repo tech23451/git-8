@@ -21,3 +21,14 @@ use App\Http\Controllers\Admin\NewsController;
 Route::controller(NewsController::class)->prefix('admin')->group(function() {
     Route::get('news/create', 'add');
 });
+
+Route::controller(AAAcontroller::class)->group(function(){
+    Route::get('XXX','bbb');
+});
+
+
+Route::controller(ProfileController::class)->Prefix('admin')->group(function(){
+    Route::get('profile/create/', 'add');
+    Route::get('profile/edit/', 'edit');   
+});
+    
