@@ -10,16 +10,20 @@ class ProfileController extends Controller
     //
     public function add()
     {
+        // dd('addが動いた');
         return view('admin.profile.create');
     }
 
     public function create()
     {
-        return redirect('admin/profile/create');
+        // dd('createが動いた');
+        // return redirect('admin/profile/create');
+        return view('admin.profile.create');
     }
 
     public function edit()
     {
+        // dd('editが動いた');
         return view('admin.profile.edit');
     }
 
