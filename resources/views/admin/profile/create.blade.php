@@ -19,7 +19,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">氏名</label>
                         <div class="col-md-10">
-                             <input type="text" class="form-control" name="yourname" value="{{ old('yourname') }}">
+                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
