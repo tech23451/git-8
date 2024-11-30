@@ -40,4 +40,5 @@
             </div>
         </div>
     </div>
+    <p>デプロイ練習</p>
 @endsection   
