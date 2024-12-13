@@ -98,6 +98,14 @@ class NewsController extends Controller
 
         return redirect('admin/news/');
     }
+
+    public function handleFormSubmission(Request $request)
+{
+    $body = $request->input('body');
+
+    // 10文字にカット
+    $body = substr($body, 0, 10);
 }
 
 
+}

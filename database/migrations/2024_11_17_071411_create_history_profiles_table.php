@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('history_profiles', function (Blueprint $table) {
-            $table->id();
+            $table->id('');
             $table->bigInteger('profile_id');
             $table->string('edited_at');
             $table->timestamps();

@@ -37,7 +37,8 @@ Route::controller(ProfileController::class)->prefix('admin')->name('admin.')->mi
     Route::get('profile/create', 'add')->middleware('auth');
     Route::get('profile/edit', 'edit')->name('profile.edit'); 
     Route::post('profile/edit', 'update')->name('profile.update');
-    Route::get('profile/add', 'add')->name('profile.add');  
+    Route::get('profile/add', 'add')->name('profile.add'); 
+    Route::get('profile', 'index')->name('profile.index'); 
 });
     
 Auth::routes();
