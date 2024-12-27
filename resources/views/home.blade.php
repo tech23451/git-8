@@ -15,6 +15,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <a href="{{ route('profile.index') }}">プロフィール一覧</a>
+                    <a href="{{ route('news.index') }}">ニュース一覧</a>
                 </div>
             </div>
         </div>

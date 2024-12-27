@@ -27,7 +27,6 @@
                         <div class="col-md-10">
                             <textarea class="form-control" name="body" rows="20">{{ old('body') }}</textarea>
                             <div class="preview">
-                                {!! nl2br(e(old('body'))) !!}
                             </div>
                         </div> 
                     </div> 
